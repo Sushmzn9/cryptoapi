@@ -32,7 +32,7 @@ const displayUser =(displayArg)=>{
       <td>$${coin?.priceUsd}</td>
       <td>$${Math.round(coin?.volumeUsd24Hr)}</td>
       <td>$${Math.round(coin?.marketCapUsd)}</td>
-      <td>${coin?.explorer}</td>
+      <td>${coin?.changePercent24Hr}</td>
                
       </tr>
         `;
