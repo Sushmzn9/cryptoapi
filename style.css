@@ -10,7 +10,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 } 
-  
+.navbar {
+  background-color: transparent !important;
+}
   .table{
     color: rgb(245, 235, 235);
     font-size: 1rem;
